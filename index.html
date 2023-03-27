@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travellers Hub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- <div class="Heading">
+              <h1>Travellers Hub</h1>
+            </div> -->
+        <div class="dp"><ion-icon name="person-circle-outline"></ion-icon></div>
+        <a class="home" href="#">Home</a>
+        <a href="#">Location</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <!-- <hr> -->
+        <h1>Travellers Hub</h1>
+        <div class="search">
+          <input type="text" class="box" placeholder="Search.." />
+          <button class="button">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="Form">
+      <form action="form.php">
+        <p>
+          -> Enter Your Name:
+          <input type="text" id="Name" placeholder="Your Name" />
+        </p>
+
+        <p>
+          -> Choose Your Nationality:
+          <label for="Indianid">
+            <input
+              type="radio"
+              value="indian"
+              name="Nationality"
+              id="Indianid"
+            />Indian
+          </label>
+          <label for="Pakistaniid">
+            <input
+              type="radio"
+              value="pakistani"
+              name="Nationality"
+              id="Pakistaniid"
+            />Pakistani
+          </label>
+          <label for="Westernid">
+            <input
+              type="radio"
+              value="Western"
+              name="Nationality"
+              id="Westernid"
+            />Western
+          </label>
+          <label for="Otherid">
+            <input
+              type="radio"
+              value="Other"
+              name="Nationality"
+              id="Otherid"
+            />Other
+          </label>
+        </p>
+
+        <p>
+          -> Food Preferences(If Any):
+          <label for="Thaiid">
+            <input type="checkbox" value="Thai" name="Food" id="Thaiid" />Thai
+          </label>
+          <label for="Indianid">
+            <input
+              type="checkbox"
+              value="Indian"
+              name="Food"
+              id="Indianid"
+            />Indian
+          </label>
+          <label for="Continentalid">
+            <input
+              type="checkbox"
+              value="Continental"
+              name="Food"
+              id="Continentalid"
+            />Continental
+          </label>
+        </p>
+
+        <p>
+          -> Choose time: From
+          <input type="date" name="FromDate" id="Fromid" />
+          to <input type="date" name="ToDate" id="Toid" />
+        </p>
+
+        <p>
+          -> From location:
+          <input
+            type="text"
+            placeholder="India"
+            name="Fromlocation"
+            id="Fromlocid"
+          />
+          to
+          <select name="tolocation" id="tolocationid">
+            <option value="London">London</option>
+            <option value="NY">Newyork</option>
+            <option value="Am">Amsterdam</option>
+            <option value="jp">Japan</option>
+            <option value="Du">Dubai</option>
+            <option value="Cn">Canada</option>
+            <option value="sz">Switzlerland</option>
+          </select>
+        </p>
+
+        <p class="Plans">
+          -> Your Plans and expectations:
+          <label for="explainid">
+            <textarea
+              name="explain"
+              placeholder="Write your plans and expectations here."
+              id="explainid"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+        </p>
+
+        <p>
+          -> Your Budget: Rs.50000
+          <input
+            type="range"
+            min="50000"
+            max="200000"
+            name="Range"
+            id="Rangeid"
+            step="10"
+          />
+          Rs.200000
+        </p>
+        <!-- <br /> -->
+
+        <p>
+          -> Your Phone Number:
+          <label for="phone">
+            <input
+              type="tel"
+              placeholder="987-543-2100"
+              id="phone"
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            />
+            <small>Format 987-543-2100</small>
+          </label>
+        </p>
+        <!-- <br /> -->
+
+        <p>
+          -> Your Email:
+          <label for="Email">
+            <input
+              type="email"
+              placeholder="xyz@gmail.com"
+              name="email"
+              id="emailid"
+            />
+          </label>
+        </p>
+        <!-- <br /> -->
+
+        <p>
+          -> Submit your ID:
+          <label for="ID">
+            <input type="file" name="ID" id="Id" />
+          </label>
+        </p>
+        <br />
+
+        <input type="reset" value="Reset" id="Reset" />
+        <input type="button" value="Submit" id="Submit" />
+      </form>
+    </div>
+
+    <div class="Image_part">
+      <img
+        src="Travel Image.jpg"
+        alt="Travelling Image"
+      />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9lhAp5LmZm8?start=43"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="line">
+        <hr />
+    </div>
+
+    <div class="Desc">
+      <p>
+        In today’s tech-obsessed world, social media may well be the perfect
+        platform to showcase the world’s beauty to armchair travellers across
+        the globe, but travel is so much more than just getting that perfect
+        Instagram shot. Travel should be meaningful. It should excite and
+        inspire you, rejuvenate and ground you, educate and challenge you, and
+        most of all, it should humble you.
+      </p>
+      <p class="Travel_font">Travel and Explore Now!!</p>
+    </div>
+
+    <div class="logo">
+      <a href="https://www.instagram.com/_dipzah_/" target="_main"
+        ><ion-icon name="logo-instagram"></ion-icon
+      ></a>
+      <a href="https://www.linkedin.com/in/hemant-shankar/" target="_main"
+        ><ion-icon name="logo-linkedin"></ion-icon
+      ></a>
+      <a href="https://www.youtube.com/@dipzah4464" target="_main"
+        ><ion-icon name="logo-youtube"></ion-icon
+      ></a>
+      <br />
+      <p>Travellers Hub Corporation &copy; 2023</p>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

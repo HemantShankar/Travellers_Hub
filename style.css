@@ -1,0 +1,210 @@
+body {
+  background: rgb(172, 172, 111) no-repeat fixed center;
+  /* background: rgb(172, 172, 111; */
+}
+
+nav {
+  background-color: rgb(4, 97, 97);
+  font-size: 40px;
+  height: 60px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 23px;
+  text-align: start;
+  color: white;
+  margin-right: 25px;
+  margin-bottom: 5px;
+}
+
+a :hover {
+  background-color: black;
+  color: aliceblue;
+  font-size: 55px;
+}
+
+.home :hover {
+  background-color: black;
+  color: aliceblue;
+  font-size: 55px;
+}
+
+.dp {
+  display: inline-block;
+  /* margin-top: 10px; */
+  /* font-size: 70px; */
+}
+
+h1 {
+  text-align: center;
+  border: solid 8px;
+  border-radius: 28px;
+  width: 25%;
+  height: 43px;
+  margin: auto;
+  margin-left: 0px;
+  font-size: 35px;
+  background-color: rgb(172, 172, 111);
+  display: inline-block;
+}
+
+.search {
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 150px;
+  position: relative;
+  /* margin-bottom: 50px;
+    border: solid 5px black; */
+  /* font-size: 80px; */
+}
+
+.search :hover {
+  font-size: 40px;
+  background-color: rgb(172, 172, 111);
+  color: aliceblue;
+}
+
+.box {
+  font-size: 25px;
+  width: 200px;
+  display: inline-block;
+}
+
+.button {
+  font-size: 23px;
+}
+
+.Heading {
+  background-color: rgb(4, 97, 97);
+  padding: 0%;
+  /* display: inline-block; */
+  /* font-size: 50px; */
+}
+
+.Form {
+  width: 60%;
+  height: 70%;
+  float: left;
+  /* background-color: rgb(172, 172, 111); */
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Image_part {
+  height: 70%;
+  width: 40%;
+  float: right;
+  /* background-color: rgb(172, 172, 111); */
+  flex-direction: column;
+}
+
+p {
+  text-align: left;
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+img {
+  height: 300px;
+  width: 88%;
+  margin-top: 45px;
+  margin-right: 20px;
+  border: solid 6px black;
+}
+
+iframe {
+  width: 88%;
+  height: 300px;
+  margin-top: 40px;
+  margin-bottom: 91.2px;
+  border: solid 6px black;
+}
+
+#Reset {
+  margin-left: 300px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(4, 97, 97);
+}
+
+#Submit {
+  font-size: 25px;
+  color: white;
+  background-color: rgb(4, 97, 97);
+}
+
+#explainid {
+  height: 46px;
+  width: auto;
+  border: solid 3px black;
+}
+
+#Name {
+  border: solid 3px black;
+}
+
+#Fromid {
+  border: solid 3px black;
+}
+
+#Toid {
+  border: solid 3px black;
+}
+
+#Fromlocid {
+  border: solid 3px black;
+}
+
+#tolocationid {
+  border: solid 3px black;
+}
+
+#phone {
+  border: solid 3px black;
+}
+
+#emailid {
+  border: solid 3px black;
+}
+
+#Id {
+  border: solid 3px black;
+  width: 186px;
+}
+
+.line hr {
+  width: 65%;
+  height: 3px;
+  border: 0;
+  background: black;
+}
+.Desc {
+  width: 85%;
+  text-align: center;
+  margin-left: 7.5%;
+  font-style: italic;
+  font-weight: 550;
+}
+
+.Travel_font {
+  font-size: 35px;
+  position: relative;
+  text-align: center;
+  margin-left: 10px;
+  color: rgb(4, 97, 97);
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.logo p {
+  text-align: center;
+  font-size: 1rem;
+}
